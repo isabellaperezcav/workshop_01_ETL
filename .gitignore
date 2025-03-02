@@ -1,4 +1,5 @@
-.venv
+/venv
 __pycache__
 db_connection.py
 desktop.ini
+/notebooks/graficas.ipynb
