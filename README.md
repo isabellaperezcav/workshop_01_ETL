@@ -43,7 +43,7 @@ Este proyecto tiene como objetivo migrar datos desde un archivo CSV a una base d
 
 ### **1. Clonar el repositorio**
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/isabellaperezcav/workshop_01_ETL
 cd DESAFIO
 ```
 
