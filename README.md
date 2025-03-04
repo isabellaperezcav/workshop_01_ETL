@@ -15,7 +15,6 @@ Este proyecto tiene como objetivo migrar datos desde un archivo CSV a una base d
 │   ├── import_csv.py
 │── 📂 notebooks
 │   ├── EDA.ipynb
-│   ├── graficas.ipynb
 │── 📂 venv
 │── .gitignore
 │── db_connection.py
@@ -31,8 +30,7 @@ Este proyecto tiene como objetivo migrar datos desde un archivo CSV a una base d
   - `Hirings.sql`: Creación de la base de datos y estructura de la tabla.
   - `import_csv.py`: Script para cargar datos desde CSV a MySQL.
 - **`notebooks/`**: Contiene los notebooks para análisis y visualización.
-  - `EDA.ipynb`: Análisis exploratorio de datos.
-  - `graficas.ipynb`: Generación de visualizaciones y reportes en PDF.
+  - `EDA.ipynb`: Análisis exploratorio de datos y creacion de tablas en la db.
 - **`venv/`**: Entorno virtual con dependencias del proyecto.
 - **`.gitignore`**: Archivos y carpetas a excluir del control de versiones.
 - **`db_connection.py`**: Módulo para conectar a la base de datos MySQL.
@@ -44,7 +42,7 @@ Este proyecto tiene como objetivo migrar datos desde un archivo CSV a una base d
 ### **1. Clonar el repositorio**
 ```bash
 git clone https://github.com/isabellaperezcav/workshop_01_ETL
-cd DESAFIO
+cd workshop_01_ETL
 ```
 
 ### **2. Instalar dependencias**
@@ -64,8 +62,13 @@ python DB_model/import_csv.py
 ```
 
 ## **5. Visualizaciones**
-Dashboard realizado en powerBi con los datos de la db, este se encuentra disponible en "dashboard/desafioETL.pbix"
+Dashboard realizado en powerBi con los datos de la db, este se encuentra disponible en "dashboard/desafioETL.pbix" o puedes visualizar los resultados desde "dashDesafioETL.pdf"
 
 ## **6. Conclusiones**
-Este proyecto permite migrar datos de contrataciones a MySQL y analizarlos con gráficos informativos, facilitando la toma de decisiones basada en datos.
+Este proyecto permite visualizar patrones en contrataciones tecnológicas mediante la automatización de la migración de datos desde un archivo CSV a MySQL. Las visualizaciones en Power BI brindan insights valiosos para la toma de decisiones, revelando tendencias en tecnologías demandadas, distribución por país y contratación de talento según experiencia facilitando la toma de decisiones basada en datos.
+
+
+## **7. Tener en cuenta**
+Todos los datos aquí son totalmente aleatorios; utilizamos una biblioteca pública para generar información aleatoria
+
 
