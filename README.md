@@ -27,7 +27,7 @@ This project implements an **Extract, Transform, Load (ETL) pipeline** to proces
 │   ├── Hirings.sql    # Database and table creation script
 │   ├── import_csv.py  # CSV to MySQL migration script
 │── 📂 notebooks       # Exploratory data analysis (EDA)
-│   ├── EDA.ipynb      # Data cleaning, visualization, and analysis
+│   ├── EDA_001.ipynb      # Data cleaning, visualization, and analysis
 │── 📂 venv            # Python virtual environment
 │── .gitignore         # Files to exclude from version control
 │── db_connection.py   # MySQL connection module
