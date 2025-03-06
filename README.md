@@ -106,3 +106,4 @@ This project automates the migration and analysis of technology hiring data. It 
 ## **8. Final Notes**  
 - All data used in this project is fictional and randomly generated.  
 - A public library was used to generate test data.  
+- Data only up to July 2022.  
